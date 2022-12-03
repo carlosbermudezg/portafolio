@@ -69,10 +69,6 @@ const left = document.querySelector('#left')
 const right = document.querySelector('#right')
 const slider = document.querySelector('.card__slider')
 
-// right.addEventListener('click', () => {
-//   slider.scrollLeft += 100
-//   slider.scroll()
-// })
 left.addEventListener('click', () => slider.scroll({
   left: 0 ,
   behavior: 'smooth'
