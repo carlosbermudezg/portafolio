@@ -613,6 +613,7 @@ blockquote {
         display: flex;
         justify-content:flex-start;
         align-items: center;
+        gap: 1em;
         color: var(--bg-dark);
         font-size: 20px;
         padding-left: 5%;
