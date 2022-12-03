@@ -81,8 +81,7 @@ header .navbar nav .active {
 header .navbar nav > div a:hover {
     font-weight: bold;
     transition: 0.5s;
-    color: var(--bg-white);
-    background-color: var(--bg-secondary);
+    color: var(--bg-secondary);
 }
 
 /*Introdución Personal*/
@@ -618,6 +617,10 @@ blockquote {
         font-size: 20px;
         padding-left: 5%;
         width: 95%;
+    }
+    header .navbar nav > div a:hover {
+        color: var(--bg-white);
+        background-color: var(--bg-secondary);
     }
     header .intro {
         width: 100%;
